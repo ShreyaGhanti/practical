@@ -1,3 +1,4 @@
+//Hierarchical inheritance
 class Vehicle1 {//parent class a
 			void running() {
 				System.out.println("running mode on");
@@ -26,4 +27,4 @@ class Vehicle1 {//parent class a
 
 	
 
-}
+
