@@ -1,10 +1,16 @@
-class Addition{
-public static void main(String[]args){
-System.out.println("The two number:");
-int a = 5;
-int b = 6;
-System.out.println(a+ " " +b);
-int sum =a+b;
-System.out.println("The sum is:="+sum);
+// Methode overloading
+package com;
+
+public class Addition {
+	static int add(int a, int b) {
+		return(a+b);}
+	static double add(double a,double b) {
+		return (a+b);}
+class overloading {
+	public static void main(String[] args) {
+		System.out.println(Addition.add(3,3));
+System.out.println(Addition.add(2.9,2.8));
+	}
+
 }
 }
